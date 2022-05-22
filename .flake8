@@ -1,0 +1,4 @@
+[flake8]
+exclude=*/migrations/*
+per-file-ignores =
+    task_manager/settings.py:F405,F403,F401,E501
